@@ -2,7 +2,8 @@
 
 from sqlalchemy import Column, Integer, String, ForeignKey
 
-from models.database import Base
+
+from database import Base
 
 # ORM class for location references
 class Location(Base):

@@ -2,7 +2,7 @@ from sqlalchemy import Column, String, Integer, Float
 
 from models.database import Base
 
-class Garden(Base):
+class User(Base):
     __tablename__ = 'user'
     id = Column('user_id', Integer, primary_key=True)
     name = Column('user_name', String, nullable=False)
